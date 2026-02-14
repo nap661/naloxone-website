@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Training &amp; P2P — Naloxone Advocates</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="topbar"></div>
+  <header>
+    <div class="container navbar">
+      <a class="brand" href="/"><img src="/assets/img/logo.png" alt="logo"><span>Naloxone Advocates</span></a>
+      <nav>
+        <a href="/about.html">About</a>
+        <a href="/training.html">Training &amp; P2P</a>
+        <a href="/resources.html">Resources</a>
+        <a href="/news.html">News</a>
+        <a class="btn btn--primary" href="/contact.html">Get Naloxone</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-card">
+        <h1>Book Free Naloxone Training</h1>
+        <p>Choose a session and submit your details. We will confirm by email.</p>
+        <div class="hero-cta">
+          <a class="btn btn--yellow" href="#book">Start Booking</a>
+          <a class="btn btn--outline" href="/resources.html">Download Guide</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="avatar"><img src="/assets/img/avatar.png" alt="avatar" style="width:100%;height:100%;object-fit:cover"></div>
+        <div class="hero-badges">
+          <span class="badge">Free Training</span>
+          <span class="badge">Peer‑led</span>
+        </div>
+      </div>
+    </div>
+    <div class="statband">
+      <ul class="stats">
+        <li><span class="num">500+</span><span>Trained</span></li>
+        <li><span class="num">1,200+</span><span>Kits</span></li>
+        <li><span class="num">150+</span><span>Events</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="book">
+    <div class="container">
+      <div class="section-title"><span class="pill-title">Book Your Session</span></div>
+
+      <!-- Simple non-script form for now -->
+      <form class="card" style="padding:20px">
+        <div class="hero-grid" style="grid-template-columns:1fr 1fr; gap:14px">
+          <div><label for="full_name">Full name *</label><br><input id="full_name" name="full_name" type="text" required placeholder="Jane Doe" style="width:100%;padding:12px;border-radius:10px;border:1px solid #d8def0"></div>
+          <div><label for="email">Email *</label><br><input id="email" name="email" type="email" required placeholder="you@example.org" style="width:100%;padding:12px;border-radius:10px;border:1px solid #d8def0"></div>
+          <div><label for="phone">Phone</label><br><input id="phone" name="phone" type="tel" placeholder="+44 ..." style="width:100%;padding:12px;border-radius:10px;border:1px solid #d8def0"></div>
+          <div><label for="session">Choose a session *</label><br>
+            <select id="session" name="session" required style="width:100%;padding:12px;border-radius:10px;border:1px solid #d8def0">
+              <option value="">Select…</option>
+              <option>Community Session — Harbour Centre</option>
+              <option>Peer‑to‑Peer (P2P) — Devonport</option>
+              <option>Organisational Training — On‑site</option>
+            </select>
+          </div>
+          <div><label for="date">Preferred date *</label><br><input id="date" name="date" type="date" required style="width:100%;padding:12px;border-radius:10px;border:1px solid #d8def0"></div>
+          <div><label for="attendees">Number of attendees</label><br><input id="attendees" name="attendees" type="number" min="1" max="50" value="1" style="width:100%;padding:12px;border-radius:10px;border:1px solid #d8def0"></div>
+          <div style="grid-column:1/-1"><label for="notes">Notes</label><br><textarea id="notes" name="notes" rows="4" placeholder="Accessibility needs, organisation name, anything else…" style="width:100%;padding:12px;border-radius:10px;border:1px solid #d8def0"></textarea></div>
+        </div>
+        <div class="hero-cta" style="margin-top:14px"><button class="btn btn--pink" type="submit">Submit Booking</button></div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><strong>Naloxone Advocates Plymouth CIC</strong><p>Devon, UK • info@example.org</p></div>
+      <div><h4>Quick Links</h4><ul><li><a href="/training.html">Training &amp; P2P</a></li><li><a href="/resources.html">Resources</a></li><li><a href="/news.html">News</a></li><li><a href="/contact.html">Get Naloxone</a></li></ul></div>
+      <div><h4>Support Us</h4><p>Your support sustains free training.</p><a class="btn btn--primary" href="/contact.html">How to Donate</a></div>
+    </div>
+    <div class="footer-bottom"><span class="big-tag">NALOXONE SAVES LIVES</span></div>
+  </footer>
+</body>
+</html>
