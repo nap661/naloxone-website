@@ -3,173 +3,378 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Naloxone Advocates Plymouth CIC — Saving Lives Through Community Action</title>
-  /styles.css
-  /assets/img/logo.png
+  <title>Naloxone Advocates Plymouth CIC — Community Training & Resources</title>
+
+  <!-- Fonts -->
+  https://fonts.gstatic.com
+  https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap
+
+  /css/styles.css
+  /assets/logo.svg
 </head>
 <body>
+  <!-- Top Yellow Band + Navbar -->
+  <header class="topband">
+    <div class="container nav">
+      /
+        /assets/logo.svg
+        <span>Naloxone<br>Advocates</span>
+      </a>
 
-  <div class="topbar"></div>
-  <header>
-    <div class="container navbar">
-      //assets/img/logo.png<span>Naloxone Advocates</span></a>
-      <nav>
-        /about.htmlAbout</a>
-        /training.htmlTraining &amp; P2P</a>
-        /resources.htmlResources</a>
-        /news.htmlNews</a>
-        /contact.htmlGet Naloxone</a>
+      <button class="nav-toggle" aria-label="Open Menu" id="navToggle">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="menu" id="menu">
+        #aboutAbout</a>
+        #trainingTraining & P2P</a>
+        #solutionsSolutions</a>
+        #resourcesResources</a>
+        #newsNews</a>
+        #ctaGet Naloxone</a>
       </nav>
     </div>
   </header>
 
+  <!-- Hero -->
   <section class="hero">
     <div class="container hero-grid">
       <div class="hero-card">
-        <h1>Saving Lives Through Community Action</h1>
-        <p>Free naloxone training and kits for Plymouth and Devon communities.</p>
-        <div class="hero-cta">
-          /training.html#bookBook Free Training</a>
-          /resources.htmlHarm Reduction Resources</a>
+        <h1>Saving Lives<br>Through Community Action</h1>
+        <p>If you overdose, having naloxone nearby can save your life. Free community training for Plymouth and Devon communities.</p>
+        <div class="actions">
+          #trainingBook Free Training</a>
+          #howProgram: Peer-to-Peer</a>
         </div>
       </div>
-      <div class="hero-right">
-        <div class="avatar">
-          /assets/img/avatar.png
+
+      <div class="hero-social">
+        <div class="avatar-stack">
+          /assets/hero.jpg
         </div>
-        <div class="hero-badges">
-          <span class="badge">Peer‑led</span>
-          <span class="badge">Non‑judgemental</span>
-          <span class="badge">Free</span>
+        <div class="social-dots">
+          #<span class="dot fb"></span></a>
+          #<span class="dot ig"></span></a>
+          #<span class="dot tw"></span></a>
+          #<span class="dot yt"></span></a>
         </div>
       </div>
-    </div>
-    <div class="statband">
-      <ul class="stats">
-        <li><span class="num">500+</span><span>People Trained</span></li>
-        <li><span class="num">1,200+</span><span>Naloxone Kits Distributed</span></li>
-        <li><span class="num">150+</span><span>Events Served</span></li>
-      </ul>
     </div>
   </section>
 
-  <section class="section">
+  <!-- KPI Strip -->
+  <section class="kpis">
+    <div class="container kpis-grid">
+      <div class="kpi"><strong>500+</strong><span>People Trained</span></div>
+      <div class="kpi"><strong>1,200+</strong><span>Resources Downloaded</span></div>
+      <div class="kpi"><strong>150+</strong><span>Kits Issued</span></div>
+    </div>
+  </section>
+
+  <!-- Upcoming Training -->
+  <section id="training" class="section">
     <div class="container">
-      <div class="section-title"><span class="pill-title">Upcoming Training Sessions</span></div>
-      <div class="cards sessions">
-        <article class="card">
-          <div class="meta"><span class="pill-mini">Community</span></div>
-          <h3>Community Session</h3>
-          <p><strong>Date:</strong> 12 Mar 2026 • <strong>Time:</strong> 6–7pm</p>
-          /training.html#bookReserve Spot</a>
+      <div class="section-head">
+        <span class="eyebrow">Don’t Wait</span>
+        <h2>Upcoming Training Sessions</h2>
+        <p>Choose a session that works for you—and let’s get you saving lives.</p>
+      </div>
+
+      <div class="cards-grid trainings">
+        <!-- Card 1 -->
+        <article class="card training">
+          <div class="card-top">
+            <span class="badge live">New</span>
+            <span class="badge open">Open</span>
+          </div>
+          <h3>Tue 25 Feb · 6:00–7:15pm</h3>
+          <p>Community naloxone awareness + overdose response.</p>
+          <div class="meta">
+            <span>📍 Plymouth</span><span>👥 In-person</span>
+          </div>
+          #Register</a>
         </article>
-        <article class="card">
-          <div class="meta"><span class="pill-mini">P2P</span></div>
-          <h3>Peer‑to‑Peer Session</h3>
-          <p><strong>Date:</strong> 20 Mar 2026 • <strong>Time:</strong> 5–6pm</p>
-          /training.html#bookReserve Spot</a>
+
+        <!-- Duplicate/adjust more cards as needed -->
+        <article class="card training">
+          <div class="card-top"><span class="badge open">Open</span></div>
+          <h3>Thu 5 Mar · 12:30–1:30pm</h3>
+          <p>Peer-to-Peer training for community connectors.</p>
+          <div class="meta"><span>🖥️ Online (Zoom)</span></div>
+          #Register</a>
         </article>
-        <article class="card">
-          <div class="meta"><span class="pill-mini" style="background:#e8fff5;border:1px solid #bff1de;color:#0d6b4c">Organisation</span></div>
+
+        <article class="card training">
+          <div class="card-top"><span class="badge open">Open</span></div>
+          <h3>Sat 14 Mar · 10:00–11:30am</h3>
+          <p>Organisational training for staff & volunteers.</p>
+          <div class="meta"><span>📍 Devon</span><span>👥 In-person</span></div>
+          #Register</a>
+        </article>
+      </div>
+
+      <div class="center">
+        #View All Training & Dates</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Movement / Quote -->
+  <section id="about" class="section">
+    <div class="container split">
+      <div class="copy-card">
+        <span class="eyebrow">Who We Are</span>
+        <h2>A Grassroots Movement for Harm Reduction</h2>
+        <p>Naloxone Advocates (Plymouth CIC) is a community-led initiative providing life‑saving training and resources.</p>
+        #Read Our Story</a>
+      </div>
+
+      <aside class="quote-card">
+        <p>“This organisation saved my life. The training was non‑judgemental, practical, and gave me confidence.”</p>
+        <div class="quoter">
+          <span class="avatar"></span>
+          <div><strong>Community Member</strong><br><small>Plymouth</small></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Free Training Programs -->
+  <section id="solutions" class="gradient green">
+    <div class="container">
+      <h2 class="center">Free Naloxone Training Programs</h2>
+      <div class="cards-grid three">
+        <article class="card feature">
+          <div class="icon">👥</div>
+          <h3>Community Training</h3>
+          <p>Learn to recognise overdose & use naloxone.</p>
+          #trainingLearn More</a>
+        </article>
+        <article class="card feature">
+          <div class="icon">🔄</div>
+          <h3>Peer‑to‑Peer (P2P)</h3>
+          <p>Equip peers to cascade training.</p>
+          #trainingLearn More</a>
+        </article>
+        <article class="card feature">
+          <div class="icon">🏢</div>
           <h3>Organisational Training</h3>
-          <p>On‑site team training and kits.</p>
-          /training.html#orgEnquire</a>
+          <p>Policies, kits & drills for teams.</p>
+          #trainingLearn More</a>
         </article>
       </div>
-      <div class="center" style="margin-top:16px">
-        /training.html#bookView All Training Dates</a>
-      </div>
     </div>
   </section>
 
-  <section class="band-gradient">
-    <div class="container">
-      <h2 class="center" style="color:#0e1330;margin:0 0 16px">Free Naloxone Training Programs</h2>
-      <div class="cards three">
-        <article class="card"><h3>Community</h3><p>Recognise overdose, administer naloxone, stay safe.</p>/training.html#communityLearn More</a></article>
-        <article class="card"><h3>P2P</h3><p>Peers cascade training through their networks.</p>/training.html#p2pLearn More</a></article>
-        <article class="card"><h3>Organisational</h3><p>Briefings, policy guidance, kit logistics.</p>/training.html#orgLearn More</a></article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="how">
+  <!-- How to Get Naloxone -->
+  <section id="how" class="section">
     <div class="container">
       <h2 class="center">How to Get Naloxone</h2>
       <div class="steps">
-        <div class="step">
-          <div class="num">1</div>
-          <div><h3>Book Free Training</h3><p class="muted">Short, practical session covering overdose response and naloxone use.</p></div>
-          <div>/training.html#bookBook</a></div>
-        </div>
-        <div class="step">
-          <div class="num" style="background:#ff4dc2">2</div>
-          <div><h3>Get Your Kit</h3><p class="muted">Collect at training or request pickup.</p></div>
-          <div>/contact.html#kitsGet Kit</a></div>
-        </div>
+        <article class="step blue">
+          <div class="badge-num">1</div>
+          <h3>Book Free Training</h3>
+          <p>Attend a session or online training. Learn overdose response & naloxone use.</p>
+          #trainingBook Training</a>
+        </article>
+        <article class="step magenta">
+          <div class="badge-num">2</div>
+          <h3>Get Your Kit</h3>
+          <p>Pick up locally after training—or receive guidance to access near you.</p>
+          #ctaGet a Kit</a>
+        </article>
       </div>
-      <div class="center" style="margin-top:12px"><div class="btn btn--yellow" style="border-radius:14px">⚠ In an Emergency: always call 999</div></div>
+      <div class="alert">
+        <strong>In an Emergency</strong> — Always call 999 (UK). Naloxone is emergency rescue — seek medical help after use.
+      </div>
     </div>
   </section>
 
-  <section class="band-gradient">
+  <!-- Volunteer / Community Roles -->
+  <section id="volunteer" class="gradient purple">
     <div class="container">
-      <h2 class="center" style="color:#0e1330;margin:0 0 18px">Join Our Community</h2>
-      <div class="cards sessions">
-        <article class="card"><h3>Peer Trainer</h3><p>Support training in your community.</p>/training.html#volunteerLearn More</a></article>
-        <article class="card"><h3>Outreach Volunteer</h3><p>Distribute resources &amp; raise awareness.</p>/training.html#volunteerLearn More</a></article>
-        <article class="card"><h3>Event Support</h3><p>Assist at events &amp; sessions.</p>/training.html#volunteerLearn More</a></article>
-        <article class="card"><h3>Behind the Scenes</h3><p>Admin, media, and data roles.</p>/training.html#volunteerLearn More</a></article>
+      <h2 class="center">Join Our Community</h2>
+      <div class="cards-grid four">
+        <article class="card role">
+          <h3>Peer Trainer</h3>
+          <p>Lead sessions in your circles & community.</p>
+          #ctaLearn More</a>
+        </article>
+        <article class="card role">
+          <h3>Outreach Volunteer</h3>
+          <p>Support events & kit distribution.</p>
+          #ctaLearn More</a>
+        </article>
+        <article class="card role">
+          <h3>Event Support</h3>
+          <p>Help with logistics & setup.</p>
+          #ctaLearn More</a>
+        </article>
+        <article class="card role">
+          <h3>Behind the Scenes</h3>
+          <p>Comms, design, admin—fit your availability.</p>
+          #ctaLearn More</a>
+        </article>
       </div>
-      <div class="center" style="margin-top:16px">/training.html#volunteerSign up to Volunteer</a></div>
+      <div class="center">
+        #ctaSign Up to Volunteer</a>
+      </div>
     </div>
   </section>
 
-  <section class="section">
+  <!-- Resources -->
+  <section id="resources" class="section">
     <div class="container">
-      <h2 class="center">Download Our Harm Reduction Resources</h2>
-      <div class="cards three" style="margin-top:16px">
-        <article class="card"><h3>Overdose Response Guide</h3>/assets/docs/overdose-response.pdfDownload PDF</a></article>
-        <article class="card"><h3>Naloxone Administration</h3>/assets/docs/naloxone-administration.pdfDownload PDF</a></article>
-        <article class="card"><h3>Harm Reduction Poster</h3>/assets/docs/harm-reduction-poster.pdfDownload PDF</a></article>
+      <span class="eyebrow">Free Resources</span>
+      <h2>Download Our Harm Reduction Resources</h2>
+      <div class="cards-grid three resources">
+        <article class="card res">
+          <div class="icon">📄</div>
+          <h3>Overdose Response Guide</h3>
+          #Download PDF</a>
+        </article>
+        <article class="card res">
+          <div class="icon">💊</div>
+          <h3>Naloxone Admin Poster</h3>
+          #Download PDF</a>
+        </article>
+        <article class="card res">
+          <div class="icon">❤️</div>
+          <h3>Harm Reduction Flyer</h3>
+          #Download PDF</a>
+        </article>
+      </div>
+      <div class="center">
+        #View All Resources</a>
       </div>
     </div>
   </section>
 
-  <section class="section" style="background:#fff">
+  <!-- News -->
+  <section id="news" class="section">
+    <div class="container">
+      <span class="eyebrow">Latest Updates</span>
+      <h2>News & Announcements</h2>
+      <div class="cards-grid three news">
+        <article class="card news-item">
+          /assets/stock1.jpg
+          <h3>Plymouth Council Partners for City‑Wide Training</h3>
+          <p>Scaling naloxone access through community venues.</p>
+          #Read More</a>
+        </article>
+        <article class="card news-item">
+          /assets/stock2.jpg
+          <h3>Free Peer Trainer Programme Launches</h3>
+          <p>Train‑the‑trainer model to reach more people.</p>
+          #Read More</a>
+        </article>
+        <article class="card news-item">
+          /assets/stock3.jpg
+          <h3>Harm Reduction Week: Events & Kits</h3>
+          <p>Pop‑up sessions across Plymouth & Devon.</p>
+          #Read More</a>
+        </article>
+      </div>
+      <div class="center">
+        #View All News</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials gradient blue">
     <div class="container">
       <h2 class="center">Community Voices</h2>
-      <div class="panel" style="margin-top:16px">
-        <div class="quotes">
-          <div class="quote"><p>“This organisation saved my life. The training was non‑judgemental and practical.”</p><div class="who">— Sarah M.</div><div class="stars">★★★★★</div></div>
-          <div class="quote"><p>“Our team now carries kits and knows what to do. Game‑changer.”</p><div class="who">— Liam T.</div><div class="stars">★★★★★</div></div>
-          <div class="quote"><p>“Friendly, empowering, and respectful. I felt safe and listened to.”</p><div class="who">— David H.</div><div class="stars">★★★★★</div></div>
-          <div class="quote"><p>“Helped us reach networks we couldn’t before.”</p><div class="who">— Robert C.</div><div class="stars">★★★★★</div></div>
-        </div>
-      </div>
-      <div class="center" style="margin-top:24px">
-        <h2>Ready to Make a Difference?</h2>
-        <div class="hero-cta">
-          /training.html#bookGet Trained</a>
-          /contact.htmlContact Us</a>
-        </div>
+      <div class="cards-grid four">
+        <article class="card quote">
+          <p>“Helpful, practical, supportive. I now carry a kit and feel prepared.”</p>
+          <div class="stars">★★★★★</div>
+          <div class="quoter small">Sam, PL4</div>
+        </article>
+        <article class="card quote">
+          <p>“Non‑judgemental training that built my confidence.”</p>
+          <div class="stars">★★★★★</div>
+          <div class="quoter small">Lee, PL1</div>
+        </article>
+        <article class="card quote">
+          <p>“We rolled this out at work—so many staff feel safer now.”</p>
+          <div class="stars">★★★★★</div>
+          <div class="quoter small">Chloe, Devon</div>
+        </article>
+        <article class="card quote">
+          <p>“Clear, calm, practical—exactly what our community needed.”</p>
+          <div class="stars">★★★★★</div>
+          <div class="quoter small">Robert, PL7</div>
+        </article>
       </div>
     </div>
   </section>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div><strong>Naloxone Advocates Plymouth CIC</strong><p>Devon, UK • info@example.org</p></div>
-      <div><h4>Quick Links</h4><ul>
-        <li>/training.htmlTraining &amp; P2P</a></li>
-        <li>/resources.htmlResources</a></li>
-        <li>/news.htmlNews</a></li>
-        <li>/contact.htmlGet Naloxone</a></li>
-      </ul></div>
-      <div><h4>Support Us</h4><p>Your support sustains free training.</p>/contact.htmlHow to Donate</a></div>
+  <!-- Final CTA -->
+  <section id="cta" class="cta">
+    <div class="container cta-grid">
+      <div>
+        <h2>Ready to Make a Difference?</h2>
+        <p>Join us: training, kits, and building a safe, more compassionate community.</p>
+        <div class="actions">
+          #trainingGet Trained</a>
+          #contactContact Us</a>
+        </div>
+      </div>
+      <div class="social-inline">
+        #</a>
+        #</a>
+        #</a>
+        #</a>
+      </div>
     </div>
-    <div class="footer-bottom"><span class="big-tag">NALOXONE SAVES LIVES</span></div>
+    <div class="cta-bottom">NALOXONE SAVES LIVES</div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Naloxone Advocates</h4>
+        <p>Community Interest Company, Plymouth & Devon</p>
+        <div class="mini-social">
+          #</a>
+          #</a>
+          #</a>
+          #</a>
+        </div>
+      </div>
+      <div>
+        <h5>Quick Links</h5>
+        <ul>
+          <li>#trainingTraining & P2P</a></li>
+          <li>#resourcesResources</a></li>
+          <li>#newsNews</a></li>
+          <li>#volunteerVolunteer</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Do‑No‑Harm</h5>
+        <ul>
+          <li>#Safeguarding</a></li>
+          <li>#Privacy & Data</a></li>
+          <li>#Accessibility</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Stay Connected</h5>
+        <p>Sign up for training dates, events, and resources.</p>
+        #
+          <input type="email" placeholder="Email address" required>
+          <button class="btn btn-dark" type="submit">Get Updates</button>
+        </form>
+      </div>
+    </div>
+    <div class="container legal">
+      <small>© <span id="year"></span> Naloxone Advocates Plymouth CIC. All rights reserved.</small>
+    </div>
   </footer>
 
+  /js/main.js</script>
 </body>
 </html>
